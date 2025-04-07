@@ -13,3 +13,5 @@ for relational purposes (foriegn keys)
 * Foreign keys have no equivalent in the RDF namespace. Rather they establish a relationship between two classes in
 a normative relational model (relational database).   
 
+## Notes
+1. Class URI and Tableschema columns are null for the classes that do not have exclusive representation in a tableschema and added during transformation of dwc-dp-table.csv to dwc-dp-classes.csv
