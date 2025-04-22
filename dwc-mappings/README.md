@@ -20,7 +20,7 @@ Darwin Core
 ## Approach
 
 ### Simplified procedure
-1. Conduct Class mapping between the object and subject (see [https://github.com/NMNH-IDSC/isamples-darwin-core-mappings/blob/main/glossary.md](https://github.com/ben-norton/isamples-dwc-mappings/blob/main/glossary.md)
+1. Conduct Class mapping between the object and subject (see [https://github.com/NMNH-IDSC/isamples-darwin-core-mappings/blob/main/glossary.md](https://github.com/NMNH-IDSC/isamples-darwin-core-mappings/blob/main/glossary.md)
 2. Conduct property mapping based on the class mappings in step 1. Only terms belonging to the mapped class are considered.   
 
 Example:  
