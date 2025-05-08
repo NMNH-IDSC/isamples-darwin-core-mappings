@@ -25,7 +25,7 @@ extension_definitions:
     property: skos:definitiom
     type_hint: xsd:string
   - slot_name: object_definition
-  	property: skos:definition
-  	type_hint: xsd:string
+    property: skos:definition
+    type_hint: xsd:string
 
 

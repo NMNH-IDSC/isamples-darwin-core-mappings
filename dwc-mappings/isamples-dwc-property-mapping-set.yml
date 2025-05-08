@@ -11,7 +11,7 @@ mapping_set_version: 1.0
 mapping_set_title: iSamples to Simple Darwin Core Semantic Mapping Set
 mapping_set_description: >
 	Manually curated mapping of iSamples Schema properties to Simple Darwin Core properties for the purposes of semantic transformations and to enhance understanding.
-	Mapping conducted using a class-based approach, where the class mapping is the basis for property mappings. See isamples-dwc-class-mappings.sssom.tsv and README file. 
+	Mapping is conducted using a class-based approach, where the class mapping is the basis for property mappings. See isamples-dwc-class-mappings.sssom.tsv and README file. 
 license: https://creativecommons.org/publicdomain/zero/1.0/
 mapping_provider: https://github.com/ben-norton/
 mapping_date: 2025-03-03
@@ -20,11 +20,11 @@ creator_label: Ben Norton
 creator_id: https://orcid.org/0000-0002-5819-9134
 comment: All mappings were conducted by semapv:ManualMappingCuration using class-based approach
 extension_definitions:
-  - slot_name: subject_definition
-    property: skos:definitiom
-    type_hint: xsd:string
-  - slot_name: object_definition
-  	property: skos:definition
+      - slot_name: subject_definition
+ 	property: skos:definition
+  	type_hint: xsd:string
+      - slot_name: object_definition
+ 	property: skos:definition
   	type_hint: xsd:string
 
 

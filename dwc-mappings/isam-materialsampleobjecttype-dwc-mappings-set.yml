@@ -18,6 +18,6 @@ creator_id: https://orcid.org/0000-0002-5819-9134
 comment: >
 	All terms mapped to dwc:MaterialSample, which is a subtype of dwc:MaterialEntity. Therefore, any term mapped to dwc:MaterialSample can also be mapped to dwc:MaterialEntity. In addition, a term in the material sample object type vocabulary cannot be mapped to dwc:MaterialEntity if any ancestral parent term is mapped to dwc:MaterialSample.
 extension_definitions:
-  - slot_name: subject_definition
-    property: skos:definitiom
-    type_hint: xsd:string
+	- slot_name: subject_definition
+	  property: skos:definition
+	  type_hint: xsd:string
